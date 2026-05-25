@@ -1,4 +1,4 @@
 # LV-MMC-controller
 LV MMC controller
 
-![Whole System](Images/System.jpg)
+![Whole System](/Images/System.jpg)
