@@ -8,7 +8,7 @@ Includes:
 - Popper.js
 - Web Serial API
 
-![CCAMS](Images/ccams.png)
+![CCAMS](../Images/ccams.png)
 
 ## References
 
