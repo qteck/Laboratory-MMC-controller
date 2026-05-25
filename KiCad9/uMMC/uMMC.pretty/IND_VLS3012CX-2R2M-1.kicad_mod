@@ -1,0 +1,179 @@
+(footprint "IND_VLS3012CX-2R2M-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.282 -2.4064 0)
+		(layer "F.SilkS")
+		(uuid "11635cda-09d7-47e1-b7ae-7d92367f1781")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_VLS3012CX-2R2M-1"
+		(at 6.378 2.4064 0)
+		(layer "F.Fab")
+		(uuid "12f2d129-d775-4177-afd4-dbb79763b604")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28f1049e-b66d-4834-975a-9ceef8c69bd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2365e48-e379-4874-970f-162ec1be36a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.18 -1.5)
+		(end 0.18 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a08ce01-fb88-445a-b066-e64867ceb40a")
+	)
+	(fp_line
+		(start -0.18 1.5)
+		(end 0.18 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7429328-f685-4876-b1cb-fe1f000b89da")
+	)
+	(fp_line
+		(start -1.75 -1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01fe6843-bbd2-4d8c-89b5-4d8168b15703")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2b64db5-d89a-48cc-ad72-ffac353dfc2c")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end -1.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb8b239b-a505-42e1-bcc4-a82e3b573b23")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad359a19-6e8b-42f7-a562-af2e049329a7")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c88d278-140d-4fa1-b286-bba798010ae0")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4204b90-b7b8-4b56-b5db-f3cfd6e14128")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34b85a77-7629-43c8-a175-d2a0f36fa602")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e5fe2dc-8cbd-40f6-a823-a4972be248d9")
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "66791268-e619-4013-a941-9080f177e6de")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1dcf2468-e5cd-4dee-bf06-e63ad250b3ca")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Utente/Desktop/UNI_25_26/BENG/uMMC/uMMC/PCB/Library/VLS3012CX-2R2M-1/VLS3012CX-2R2M-1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "04163908-19e6-4c9b-ab5e-af54ba2376a8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 27.94 33.02)
+		(size 76.2 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2924b429-b45b-4634-b3da-3842d7aeefb9")
+		(property "Sheetname" "Untitled SheetCYPD3177-24LQXQ"
+			(at 27.94 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 27.94 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB_SUPPLY"
+				(path "/04163908-19e6-4c9b-ab5e-af54ba2376a8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

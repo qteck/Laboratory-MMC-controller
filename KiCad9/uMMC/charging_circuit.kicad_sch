@@ -1,0 +1,2867 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "488a1c66-f3d5-44cb-a0b1-f285a8d04174")
+	(paper "A4")
+	(lib_symbols
+		(symbol "uMMC:CONSMA020.062-G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONSMA020.062-G"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "uMMC:LINX_CONSMA020.062-G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/usa-en/product-L9000279-01.datasheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Details" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIGIKEY PN" "343-CONSMA020.062-G-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "£2.94"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONSMA020.062-G_0_0"
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CONSMA020.062-G_1_0"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CONSMA020.062-G_1_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uMMC:DAC8734SPFBR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.3594 54.8386 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DAC8734SPFBR"
+				(at -4.7244 -61.7474 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "uMMC:QFP50P900X900X120-48N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdac8734"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad,16-Bit,High-Accuracy,±16VOutput,Serial Input DIGITAL-TO-ANALOGCONVERTER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SUPPLIER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_FARNELL" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OC_NEWARK" "50R7664"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "DAC8734SPFBR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "TQFP-48"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Details" "Quad,16-Bit,High-Accuracy,±16VOutput,Serial Input DIGITAL-TO-ANALOGCONVERTER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIGIKEY PN" "296-DAC8734SPFBRCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "£33.85 "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DAC8734SPFBR_0_0"
+				(pin power_in line
+					(at -30.48 45.72 0)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 43.18 0)
+					(length 5.08)
+					(name "AVDD_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 40.64 0)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 38.1 0)
+					(length 5.08)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 33.02 0)
+					(length 5.08)
+					(name "~CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 30.48 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 27.94 0)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 25.4 0)
+					(length 5.08)
+					(name "~LDAC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 22.86 0)
+					(length 5.08)
+					(name "~RST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 20.32 0)
+					(length 5.08)
+					(name "UNI/BIP-A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 17.78 0)
+					(length 5.08)
+					(name "REF-A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 15.24 0)
+					(length 5.08)
+					(name "REF-B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 12.7 0)
+					(length 5.08)
+					(name "AIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 10.16 0)
+					(length 5.08)
+					(name "UNI/BIP-B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 5.08 0)
+					(length 5.08)
+					(name "GPIO-0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 2.54 0)
+					(length 5.08)
+					(name "GPIO-1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -30.48 -2.54 0)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -30.48 -5.08 0)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -30.48 -7.62 0)
+					(length 5.08)
+					(name "NC_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -30.48 -10.16 0)
+					(length 5.08)
+					(name "NC_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -30.48 -12.7 0)
+					(length 5.08)
+					(name "NC_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -30.48 -15.24 0)
+					(length 5.08)
+					(name "NC_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -30.48 -17.78 0)
+					(length 5.08)
+					(name "NC_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -30.48 -20.32 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 -25.4 0)
+					(length 5.08)
+					(name "AVSS_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 -27.94 0)
+					(length 5.08)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -33.02 0)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -35.56 0)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -38.1 0)
+					(length 5.08)
+					(name "REFGND-A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -40.64 0)
+					(length 5.08)
+					(name "REFGND-B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -43.18 0)
+					(length 5.08)
+					(name "SGND-0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -45.72 0)
+					(length 5.08)
+					(name "SGND-1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -48.26 0)
+					(length 5.08)
+					(name "SGND-2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -30.48 -50.8 0)
+					(length 5.08)
+					(name "SGND-3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 45.72 180)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 43.18 180)
+					(length 5.08)
+					(name "VMON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 38.1 180)
+					(length 5.08)
+					(name "VOUT-0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 35.56 180)
+					(length 5.08)
+					(name "VOUT-1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 33.02 180)
+					(length 5.08)
+					(name "VOUT-2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 30.48 180)
+					(length 5.08)
+					(name "VOUT-3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 25.4 180)
+					(length 5.08)
+					(name "RFB1-0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 22.86 180)
+					(length 5.08)
+					(name "RFB1-1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 20.32 180)
+					(length 5.08)
+					(name "RFB1-2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 17.78 180)
+					(length 5.08)
+					(name "RFB1-3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 12.7 180)
+					(length 5.08)
+					(name "RFB2-0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 10.16 180)
+					(length 5.08)
+					(name "RFB2-1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 7.62 180)
+					(length 5.08)
+					(name "RFB2-2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 5.08 180)
+					(length 5.08)
+					(name "RFB2-3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC8734SPFBR_1_0"
+				(rectangle
+					(start -25.4 50.8)
+					(end 25.4 -55.88)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uMMC:ISO7741FQDBQRQ1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ISO7741FQDBQRQ1"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "uMMC:DBQ16_TEX"
+				(at -20.32 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/iso7741-q1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose Digital Isolator 2500Vrms 4 Channel 100Mbps 85kV/µs CMTI 16-SSOP (0.154\", 3.90mm Width)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Details" "General Purpose Digital Isolator 2500Vrms 4 Channel 100Mbps 85kV/µs CMTI 16-SSOP (0.154\", 3.90mm Width)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIGIKEY PN" "296-51207-1-ND"
+				(at -20.32 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "£1.95"
+				(at -20.32 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ISO7741FQDBQRQ1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DBQ16_TEX DBQ16_TEX-M DBQ16_TEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ISO7741FQDBQRQ1_0_1"
+				(pin power_in line
+					(at -20.32 8.89 0)
+					(length 7.62)
+					(name "VCC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 6.35 0)
+					(length 7.62)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 3.81 0)
+					(length 7.62)
+					(name "INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 1.27 0)
+					(length 7.62)
+					(name "INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -1.27 0)
+					(length 7.62)
+					(name "INC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -3.81 0)
+					(length 7.62)
+					(name "OUTD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -6.35 0)
+					(length 7.62)
+					(name "EN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -8.89 0)
+					(length 7.62)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 8.89 180)
+					(length 7.62)
+					(name "VCC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 3.81 180)
+					(length 7.62)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 1.27 180)
+					(length 7.62)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -1.27 180)
+					(length 7.62)
+					(name "OUTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -3.81 180)
+					(length 7.62)
+					(name "IND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -6.35 180)
+					(length 7.62)
+					(name "EN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -8.89 180)
+					(length 7.62)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ISO7741FQDBQRQ1_1_1"
+				(rectangle
+					(start -12.7 13.97)
+					(end 12.7 -13.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "uMMC:TEC_2-0921"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at -17.78 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TEC_2-0921"
+				(at -17.78 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "uMMC:CONV_TEC_2-0921"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tracopower.com/products/tec2.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Isolated Module DC DC Converter 2 Output 5V -5V 200mA, 200mA 4.5V - 13.2V Input"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "November 14, 2023"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11.7mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Traco Power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Details" "Isolated Module DC DC Converter 2 Output 5V -5V 200mA, 200mA 4.5V - 13.2V Input"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIGIKEY PN" "1951-1387-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "£8.73 "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TEC_2-0921_0_0"
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 5.08)
+					(name "+VIN(VCC)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 5.08)
+					(name "REMOTE_ON/OFF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -7.62 0)
+					(length 5.08)
+					(name "-VIN(GND)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 5.08 180)
+					(length 5.08)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "COMMON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TEC_2-0921_1_0"
+				(rectangle
+					(start -17.78 7.62)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "uMMC:DAC8734SPFBR")
+		(at 135.89 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290f2450-aacf-449d-8d83-60f01cc3c5c2")
+		(property "Reference" "U7"
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC8734SPFBR"
+			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uMMC:QFP50P900X900X120-48N"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdac8734"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad,16-Bit,High-Accuracy,±16VOutput,Serial Input DIGITAL-TO-ANALOGCONVERTER"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Texas Instruments"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "-"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "50R7664"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DAC8734SPFBR"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TQFP-48"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Details" "Quad,16-Bit,High-Accuracy,±16VOutput,Serial Input DIGITAL-TO-ANALOGCONVERTER"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PN" "296-DAC8734SPFBRCT-ND"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "£33.85 "
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "26"
+			(uuid "095e0a76-7a7f-4d8d-934c-2fb529e08ae0")
+		)
+		(pin "35"
+			(uuid "4e0b7e2f-3f60-4b39-a074-61d7147fed25")
+		)
+		(pin "13"
+			(uuid "f8d862d1-0283-4c1a-92d7-5db8a4d8d9b4")
+		)
+		(pin "3"
+			(uuid "1054cfc6-d833-4bab-8afb-1aec5796df5d")
+		)
+		(pin "14"
+			(uuid "aef9676e-f6be-41ec-a5a2-f12ae771583f")
+		)
+		(pin "4"
+			(uuid "4d1c4df8-e476-4108-a3e5-8778e639daf7")
+		)
+		(pin "2"
+			(uuid "910702af-2abb-450c-8525-a4d7635dcd0f")
+		)
+		(pin "6"
+			(uuid "9fcc7494-10c9-406e-973f-e1db648ae343")
+		)
+		(pin "7"
+			(uuid "2bf1c55f-9d48-4311-aa19-89256c68c7c9")
+		)
+		(pin "10"
+			(uuid "90e4507b-e648-41eb-bac3-5112c7f999b2")
+		)
+		(pin "30"
+			(uuid "d8dad163-4192-470d-9b6a-e620279c4357")
+		)
+		(pin "37"
+			(uuid "ff5afe7b-bfce-4f58-91c9-c67794839889")
+		)
+		(pin "27"
+			(uuid "1d9928b9-aa54-4ce1-b3dc-1b36d447d20c")
+		)
+		(pin "18"
+			(uuid "06355fe1-29ab-4fc7-8c8e-ca52386d2178")
+		)
+		(pin "41"
+			(uuid "c842aff0-cbd8-4cd8-a7dd-2d2ff76301a4")
+		)
+		(pin "34"
+			(uuid "9e0719dd-c7aa-4797-a405-2ed5379911ab")
+		)
+		(pin "38"
+			(uuid "291d382f-122b-40a8-923b-9a72c7692e9d")
+		)
+		(pin "21"
+			(uuid "e52f9c0e-31c9-416c-85bb-9c51b15fa75d")
+		)
+		(pin "1"
+			(uuid "e5d7d94b-5bbc-42a7-9ebc-04e976fbf2b8")
+		)
+		(pin "19"
+			(uuid "b1531809-4ddf-42d2-a624-30b16cb0b2e2")
+		)
+		(pin "23"
+			(uuid "9e2cad69-e907-4d99-985b-7e46488f4e11")
+		)
+		(pin "46"
+			(uuid "cbf7088a-4fee-4189-893b-708d093aa8d4")
+		)
+		(pin "8"
+			(uuid "42940b92-5d6b-4715-88bd-bc24330d0f91")
+		)
+		(pin "9"
+			(uuid "0281be99-c2e6-4318-b48d-856b55735d7a")
+		)
+		(pin "20"
+			(uuid "9f288594-e30b-408b-96aa-ebf7e775671a")
+		)
+		(pin "11"
+			(uuid "55019442-f268-4289-bc3a-b7fa03d3e730")
+		)
+		(pin "32"
+			(uuid "dcf08ba8-01ff-4601-a250-90e503f7568b")
+		)
+		(pin "31"
+			(uuid "711a8874-1350-4967-ac54-b5dcec3f3bfd")
+		)
+		(pin "47"
+			(uuid "1eb23eb0-2adb-407e-bc44-0e060e28d46d")
+		)
+		(pin "48"
+			(uuid "e0276711-2e19-4255-977b-569bdc979bc6")
+		)
+		(pin "24"
+			(uuid "06ddeb2f-f642-4320-91a0-f6e8186416b5")
+		)
+		(pin "36"
+			(uuid "f1157d46-a8b2-4cdc-b848-282f43df0549")
+		)
+		(pin "42"
+			(uuid "76f78405-0822-4e89-b214-87a5d0a8d002")
+		)
+		(pin "25"
+			(uuid "48d8a6cb-c208-4d3f-8dff-feebc9c0c011")
+		)
+		(pin "12"
+			(uuid "08e7aebd-e9f5-4b4e-824a-719fb1e01a62")
+		)
+		(pin "28"
+			(uuid "90b84aca-cf8d-4320-9187-bd59bcfb7547")
+		)
+		(pin "33"
+			(uuid "9b7b62a3-05dd-4504-8f06-6cd7577eb482")
+		)
+		(pin "29"
+			(uuid "87891525-e41f-4dd8-904b-6ad2f30149ed")
+		)
+		(pin "43"
+			(uuid "f4194159-37b7-4daf-a7d7-fa8f13c65814")
+		)
+		(pin "5"
+			(uuid "7926348e-f1f4-4751-aaa2-52833cdf6101")
+		)
+		(pin "15"
+			(uuid "caa50c59-1df8-4e8d-a749-713ab0590c0f")
+		)
+		(pin "17"
+			(uuid "1fa18668-18cd-4041-afc0-41ca4b28aca3")
+		)
+		(pin "40"
+			(uuid "34d6502d-179b-4182-b1ae-037d2caed820")
+		)
+		(pin "39"
+			(uuid "d3a321a2-7f77-4a51-8f5f-b93b942212b3")
+		)
+		(pin "16"
+			(uuid "bbc2d838-524c-4223-a370-cfd61d86d172")
+		)
+		(pin "44"
+			(uuid "1def441b-5389-4dd8-97b3-662e42e4c88d")
+		)
+		(pin "22"
+			(uuid "103c52e3-757d-404e-a27a-b28ec0adc382")
+		)
+		(pin "45"
+			(uuid "e331601b-9711-43da-aba9-37b34911d41d")
+		)
+		(instances
+			(project "uMMC"
+				(path "/49d753b6-1cbe-4880-bcb6-3b72bc8290e1/42f4d5a9-0f03-473e-a98c-ebbe3ba564cf"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uMMC:CONSMA020.062-G")
+		(at 200.66 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3693a83a-1a07-4904-9e7b-d6f7d2e1b1c1")
+		(property "Reference" "U24"
+			(at 200.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONSMA020.062-G"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uMMC:LINX_CONSMA020.062-G"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-L9000279-01.datasheet.pdf"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Details" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PN" "343-CONSMA020.062-G-ND"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "£2.94"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2095fcbf-b39d-4bdd-94b3-5b33cbd7d019")
+		)
+		(pin "1"
+			(uuid "82bf7ca9-937c-48d5-80d4-c44a7c0d9230")
+		)
+		(pin "2"
+			(uuid "cd695df4-6a9a-4b46-a8ee-819bdb4cc079")
+		)
+		(pin "5"
+			(uuid "518237d3-2829-477b-a1d2-9490e9142c54")
+		)
+		(pin "4"
+			(uuid "f7d32872-2e14-403a-886d-3b15cf2734e5")
+		)
+		(instances
+			(project "uMMC"
+				(path "/49d753b6-1cbe-4880-bcb6-3b72bc8290e1/42f4d5a9-0f03-473e-a98c-ebbe3ba564cf"
+					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uMMC:ISO7741FQDBQRQ1")
+		(at 62.23 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eaecf1e-60e2-4ba4-a6ff-0898ff51e681")
+		(property "Reference" "U8"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ISO7741FQDBQRQ1"
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "uMMC:DBQ16_TEX"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/iso7741-q1"
+			(at 62.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Digital Isolator 2500Vrms 4 Channel 100Mbps 85kV/µs CMTI 16-SSOP (0.154\", 3.90mm Width)"
+			(at 62.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Details" "General Purpose Digital Isolator 2500Vrms 4 Channel 100Mbps 85kV/µs CMTI 16-SSOP (0.154\", 3.90mm Width)"
+			(at 62.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PN" "296-51207-1-ND"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "£1.95"
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 62.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7556ef64-418b-4c9a-9bfb-cde32204146a")
+		)
+		(pin "7"
+			(uuid "e8843415-a40c-4437-8a85-ac41372d03f8")
+		)
+		(pin "15"
+			(uuid "5c4444df-ccee-4281-8264-32bbb431cf05")
+		)
+		(pin "12"
+			(uuid "d2be8586-83ee-479b-80c7-1f9b49381bea")
+		)
+		(pin "8"
+			(uuid "ada918b1-b009-4b6f-9280-28ece311c497")
+		)
+		(pin "16"
+			(uuid "bc3d3739-1487-4a87-8457-609850787f17")
+		)
+		(pin "11"
+			(uuid "29dcff7b-726a-4852-89f0-731c0dc909cf")
+		)
+		(pin "13"
+			(uuid "3ae2e38b-8e7d-4150-927d-f13165644816")
+		)
+		(pin "14"
+			(uuid "151cea64-6218-4149-8212-705735819545")
+		)
+		(pin "10"
+			(uuid "9317e590-9cc8-4d4e-8542-6b8aeb1d74f0")
+		)
+		(pin "9"
+			(uuid "595630d5-a192-4039-a947-642ee6d080cc")
+		)
+		(pin "5"
+			(uuid "7e468328-a236-4f69-a4e7-25c23d94aecd")
+		)
+		(pin "3"
+			(uuid "f2746579-1850-4985-8625-d7111f1d4ebd")
+		)
+		(pin "6"
+			(uuid "af01f283-a210-4999-9ed9-eb7484694ace")
+		)
+		(pin "2"
+			(uuid "398a80e5-431b-4487-b683-df93ab7a5ff1")
+		)
+		(pin "1"
+			(uuid "7f30c23a-d1d4-4f3d-9e6d-ab1b730fc5f4")
+		)
+		(instances
+			(project "uMMC"
+				(path "/49d753b6-1cbe-4880-bcb6-3b72bc8290e1/42f4d5a9-0f03-473e-a98c-ebbe3ba564cf"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uMMC:CONSMA020.062-G")
+		(at 248.92 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81a7427a-4c01-42e9-ade7-89b448994608")
+		(property "Reference" "U21"
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONSMA020.062-G"
+			(at 248.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uMMC:LINX_CONSMA020.062-G"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-L9000279-01.datasheet.pdf"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Details" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PN" "343-CONSMA020.062-G-ND"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "£2.94"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0e2d0829-aa29-427e-8edb-b566ab002a45")
+		)
+		(pin "1"
+			(uuid "c4ad6544-15df-4c22-af9b-6d8ed2cfefad")
+		)
+		(pin "2"
+			(uuid "d239a10e-4547-49cc-b18c-db6771784c07")
+		)
+		(pin "5"
+			(uuid "881e6407-e8f2-42f6-8790-7d48946a9fca")
+		)
+		(pin "4"
+			(uuid "d65a5731-3f64-400d-a77b-14945c18bb29")
+		)
+		(instances
+			(project "uMMC"
+				(path "/49d753b6-1cbe-4880-bcb6-3b72bc8290e1/42f4d5a9-0f03-473e-a98c-ebbe3ba564cf"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uMMC:CONSMA020.062-G")
+		(at 270.51 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3150cda-e38f-4997-86bd-e88286891063")
+		(property "Reference" "U22"
+			(at 270.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONSMA020.062-G"
+			(at 270.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uMMC:LINX_CONSMA020.062-G"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-L9000279-01.datasheet.pdf"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Details" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PN" "343-CONSMA020.062-G-ND"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "£2.94"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "42755976-de6d-4b8f-bc1b-a8b57e1c8ba3")
+		)
+		(pin "1"
+			(uuid "d4f20b43-ec3e-48da-966a-b9c9543268d3")
+		)
+		(pin "2"
+			(uuid "7ac1b6cc-14bd-4d7d-915b-585423380967")
+		)
+		(pin "5"
+			(uuid "a467cbf8-b38e-4564-9edc-8ed3a056351b")
+		)
+		(pin "4"
+			(uuid "c70054ba-7ad3-4ca9-8ebd-20eca9305951")
+		)
+		(instances
+			(project "uMMC"
+				(path "/49d753b6-1cbe-4880-bcb6-3b72bc8290e1/42f4d5a9-0f03-473e-a98c-ebbe3ba564cf"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uMMC:TEC_2-0921")
+		(at 64.77 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8012faf-d01b-499b-9ba5-50dce5d15ac5")
+		(property "Reference" "PS1"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEC_2-0921"
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uMMC:CONV_TEC_2-0921"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tec2.pdf"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Isolated Module DC DC Converter 2 Output 5V -5V 200mA, 200mA 4.5V - 13.2V Input"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "November 14, 2023"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.7mm"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Traco Power"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Details" "Isolated Module DC DC Converter 2 Output 5V -5V 200mA, 200mA 4.5V - 13.2V Input"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PN" "1951-1387-ND"
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "£8.73 "
+			(at 64.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "922593d1-c06a-4799-8858-ead42050b93d")
+		)
+		(pin "3"
+			(uuid "e98207e8-f1fa-488b-889c-aaf6445d2461")
+		)
+		(pin "8"
+			(uuid "2a4069a7-47d2-42df-aca7-25a87f976fcf")
+		)
+		(pin "5"
+			(uuid "998ed88e-a59b-4a8e-80e1-9f8de6f93a97")
+		)
+		(pin "7"
+			(uuid "05876b18-d004-4043-a9e1-1c87f2ca69e3")
+		)
+		(pin "1"
+			(uuid "e1792852-7c7b-4a81-a88b-7a41fa3e6f1f")
+		)
+		(pin "2"
+			(uuid "bd158f25-ff2e-4ace-9015-0a9194def5db")
+		)
+		(instances
+			(project "uMMC"
+				(path "/49d753b6-1cbe-4880-bcb6-3b72bc8290e1/42f4d5a9-0f03-473e-a98c-ebbe3ba564cf"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uMMC:CONSMA020.062-G")
+		(at 222.25 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f507c0ee-be62-4866-80a3-7a637d20d563")
+		(property "Reference" "U20"
+			(at 222.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONSMA020.062-G"
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "uMMC:LINX_CONSMA020.062-G"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-L9000279-01.datasheet.pdf"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Details" "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PN" "343-CONSMA020.062-G-ND"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "£2.94"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "07ccf600-cdd9-437e-bdd8-6e64fbc4c6af")
+		)
+		(pin "1"
+			(uuid "f8937d69-6fda-4c2b-81dd-344b05c3a2a7")
+		)
+		(pin "2"
+			(uuid "bdde155c-3eef-4d07-bda4-e692fb8c0bf1")
+		)
+		(pin "5"
+			(uuid "7ff795b5-e23c-4695-8e37-c60a3d8d20b6")
+		)
+		(pin "4"
+			(uuid "fbb15e66-e963-4e80-8432-537c73b0cb23")
+		)
+		(instances
+			(project "uMMC"
+				(path "/49d753b6-1cbe-4880-bcb6-3b72bc8290e1/42f4d5a9-0f03-473e-a98c-ebbe3ba564cf"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

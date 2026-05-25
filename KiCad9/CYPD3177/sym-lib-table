@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Sym_Library")(type "KiCad")(uri "${KIPRJMOD}/Sym_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "USB_SUPPLY")(type "KiCad")(uri "${KIPRJMOD}/USB_SUPPLY.kicad_sym")(options "")(descr ""))
+)

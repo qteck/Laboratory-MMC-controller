@@ -1,0 +1,185 @@
+(footprint "XTAL_ABM10AIG-24.000MHZ-8-3Z-T3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(uuid "6309a132-bd5d-490f-b5eb-ca8e10e00969")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_ABM10AIG-24.000MHZ-8-3Z-T3"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d52a932d-b429-4737-8fc3-7e40475b6e7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "104758ce-5149-4a88-8924-cc6bff25c3e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5a23a77-d7dc-4e5e-8465-86d729125e3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.25 -1.85)
+		(end -1.15 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5c21889b-57e6-44f3-9d5c-b55b21411a51")
+	)
+	(fp_line
+		(start -1.375 -1.625)
+		(end -1.375 1.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21ba22a7-518e-4d37-a08e-84998fd91389")
+	)
+	(fp_line
+		(start -1.375 -1.625)
+		(end 1.375 -1.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d791187-0f66-4fb5-b11c-85d295958a2a")
+	)
+	(fp_line
+		(start 1.375 -1.625)
+		(end 1.375 1.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e4d7125-5723-44ab-9e47-7862b625e786")
+	)
+	(fp_line
+		(start 1.375 1.625)
+		(end -1.375 1.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3281c424-c99c-49cb-bef6-4e6377cb804e")
+	)
+	(fp_line
+		(start -1.025 -1.275)
+		(end -1.025 1.275)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61a1383f-cfcf-44b9-abdb-db0210d859ab")
+	)
+	(fp_line
+		(start -1.025 -1.275)
+		(end 1.025 -1.275)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b5f741c-e9ec-495b-978f-b18cbef40a20")
+	)
+	(fp_line
+		(start 1.025 -1.275)
+		(end 1.025 1.275)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c3a9672-d054-46f7-9b7a-39b37fb90099")
+	)
+	(fp_line
+		(start 1.025 1.275)
+		(end -1.025 1.275)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8514792-d127-46f0-a2af-370f2ca3736c")
+	)
+	(pad "1" smd rect
+		(at -0.625 -0.825)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c42a056a-500e-4195-89c7-6812eb5b433a")
+	)
+	(pad "2" smd rect
+		(at -0.625 0.825)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e5f394c0-d40c-4c1d-9608-df9255aed5bb")
+	)
+	(pad "3" smd rect
+		(at 0.625 0.825)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "fb0c3745-c2a3-419d-a94a-3b3ce1d183c1")
+	)
+	(pad "4" smd rect
+		(at 0.625 -0.825)
+		(size 1 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3589d218-a891-4b49-9f7f-4748834bce6e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Utente/Desktop/UNI_25_26/BENG/uMMC/uMMC/PCB/Library/ABM10AIG-24.000MHZ-8-3Z-T3/ABM10AIG-24.000MHZ-8-3Z-T3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

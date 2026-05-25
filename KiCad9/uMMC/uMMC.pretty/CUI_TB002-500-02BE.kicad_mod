@@ -1,0 +1,225 @@
+(footprint "CUI_TB002-500-02BE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.945 -5.989 0)
+		(layer "F.SilkS")
+		(uuid "f1dc13fd-50e0-4be4-95ab-37911dfba43f")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUI_TB002-500-02BE"
+		(at 12.502 4.861 0)
+		(layer "F.Fab")
+		(uuid "4fa4f301-9d74-49a4-8485-b6608f3f3d15")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a684ff95-ac05-4dea-998d-f970345c370d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49ee2865-bc3d-4def-8587-6978e54aeb95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -4.1)
+		(end 7.5 -4.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb4123c5-4b2c-4bd7-9bf2-be8ffc1dfb48")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end -2.5 -4.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37e24b5f-bb93-4f22-8fb5-bbdc3f13533f")
+	)
+	(fp_line
+		(start 7.5 -4.1)
+		(end 7.5 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80c2c135-ec86-423a-8045-a8468a633d6d")
+	)
+	(fp_line
+		(start 7.5 3.5)
+		(end -2.5 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efc6037c-9e34-42a6-ae8b-d70aec82e15a")
+	)
+	(fp_circle
+		(center 0 4.5)
+		(end 0.1 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dda6fb32-8b77-4034-9df6-3bf1c856a606")
+	)
+	(fp_line
+		(start -2.75 -4.35)
+		(end 7.75 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2e170a3-ab82-400e-a3b5-15cf19a0da90")
+	)
+	(fp_line
+		(start -2.75 3.75)
+		(end -2.75 -4.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7c2b293-0b74-4d74-85ba-06f14455ec62")
+	)
+	(fp_line
+		(start 7.75 -4.35)
+		(end 7.75 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42e0ff57-2014-4968-af1c-314657f8150d")
+	)
+	(fp_line
+		(start 7.75 3.75)
+		(end -2.75 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5f8ee46-2687-4179-91ee-3c29cfe257e5")
+	)
+	(fp_line
+		(start -2.5 -4.1)
+		(end 7.5 -4.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2d0669b-21f5-4add-b35d-92bade4d5d60")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end -2.5 -4.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8740ec15-8409-4c6a-b72f-6fd5998f4854")
+	)
+	(fp_line
+		(start 7.5 -4.1)
+		(end 7.5 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "973b9a4e-93f4-4cfd-b136-1077359ab9fc")
+	)
+	(fp_line
+		(start 7.5 3.5)
+		(end -2.5 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6eb83f74-4589-4efb-aeca-343c6e683214")
+	)
+	(fp_circle
+		(center 0 4.5)
+		(end 0.1 4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d05edd2-2eaf-4775-95fd-c1c2d3bb9118")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b4fbde5b-0ef6-4b45-913e-eb8ddbf29363")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ec512a14-338b-4068-8c9c-a1b4d533ff95")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Utente/Desktop/UNI_25_26/BENG/uMMC/uMMC/PCB/Library/TB002-500-02BE/TB002-500-02BE.step"
+		(offset
+			(xyz 7.5 4.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)

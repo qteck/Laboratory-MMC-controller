@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "uMMC")(type "KiCad")(uri "C:/Users/Utente/Desktop/UNI_25_26/BENG/uMMC/uMMC/PCB/KiCad9/uMMC/uMMC.pretty")(options "")(descr ""))
+)
