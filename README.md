@@ -16,11 +16,23 @@ Additional Functions:
 - 5V/3V3 Power Sources
 
 
-PCB Shields: 
+PCB Shields:
 - Data Acquisition (signal viewer)
 - Power Supply (power booster)
-- Encoder 
+- Encoder
 - Display
+
+## Ideal Laboratory Submodule
+
+For the controller to be able to efficiently drive the submodules, the submodules need to implement a full-duplex UART communication protocol and accurate time metering. The time synchronization setting is essential for effective functioning and should be optimized by algorithmic sweeps through the stack. However, for simplicity and versatility, it is recommended to implement a synchronization input, giving an extra synchronization option, for example, for debugging purposes.
+
+The submodules should be autonomous and function as decentralized units, implementing functions such as current and voltage metering on board, local capacitor management on board, and the submodule algorithm to define the stack behaviour, describing functions such as data propagation, frequency adjustment, scheduled events, and fault handling.
+
+### Minimal Submodule Design
+
+The minimal submodule design establishes the conversion features only: an MCU with half-bridge or full-bridge capabilities and a capacitor on board that connects over UART and synchronizes over an external pin. The capacitors can then be directly charged from the controller board, leaving out all the complex control problems.
+
+
 
 ## Simple System Architecture
 ![System Architecture](Images/system_architecture.png)
