@@ -1,6 +1,6 @@
 LTspice 24.1.9 for Windows
-Circuit: C:\Users\Utente\Desktop\UNI_25_26\BENG\uMMC\uMMC\LTSPICE\HALF-BRIDGE\Half-Bridge.net
-Start Time: Mon May 25 13:22:04 2026
+Circuit: C:\Users\Utente\Desktop\LV-MMC-controller\LV-MMC-controller\LTSPICE\HALF-BRIDGE-4-SM\Half-Bridge.net
+Start Time: Wed May 27 11:31:45 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -9,9 +9,9 @@ method = modified trap
 Model "n": Oxide thickness thinner than recommended for a level 1 MOSFET.
 Model "p": Oxide thickness thinner than recommended for a level 1 MOSFET.
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.262 seconds.
+Total elapsed time: 0.281 seconds.
 
 Files loaded:
-C:\Users\Utente\Desktop\UNI_25_26\BENG\uMMC\uMMC\LTSPICE\HALF-BRIDGE\Half-Bridge.net
+C:\Users\Utente\Desktop\LV-MMC-controller\LV-MMC-controller\LTSPICE\HALF-BRIDGE-4-SM\Half-Bridge.net
 C:\Users\Utente\AppData\Local\LTspice\lib\cmp\standard.mos
 
